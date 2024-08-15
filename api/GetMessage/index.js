@@ -15,7 +15,7 @@ module.exports = async function (context, req) {
               httponly: true,
               path: "/",
               expires: cookieExipre,
-              sameSite: "None",
+              sameSite: "Strict",
           },
           {
               name: "cookie2",
@@ -24,7 +24,7 @@ module.exports = async function (context, req) {
               httponly: true,
               path: "/",
               expires: cookieExipre,
-              sameSite: "None",
+              sameSite: "Strict",
           },
       ],
   };
