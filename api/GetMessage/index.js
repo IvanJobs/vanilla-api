@@ -11,7 +11,7 @@ module.exports = async function (context, req) {
           {
               name: "cookie1",
               value: "cookie1",
-              secure: true,
+              secure: false,
               httponly: true,
               path: "/",
               expires: cookieExipre,
