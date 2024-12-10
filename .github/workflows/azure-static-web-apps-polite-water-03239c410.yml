@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - developer/ivanhe/pr-001
+      - developer/ivanhe/named-1
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
